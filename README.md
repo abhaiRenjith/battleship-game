@@ -4,9 +4,13 @@ Player Strategies
 For each of 3 strategies you implemented, name the strategy, and then description of it (100 words each)
 
 Strategy 1: Random Placement; In this strategy, ships are placed randomly on the game board. This approach introduces an element of unpredictability, making it harder for opponents to anticipate the ship locations. While it lacks a structured formation, the randomness can create challenges for the opponent's targeting strategy.
+
 Strategy 2: Connecting Ships; This strategy involves placing ships in a manner that connects them, forming larger ship structures. By linking ships together, it adds a layer of complexity to the opponent's task, as hitting one part of a connected ship may reveal the presence of an even larger vessel. This method aims to confuse and mislead opponents by presenting unconventional ship configurations.
+
 Strategy 3: Even Distribution; The even distribution strategy focuses on spreading ships uniformly across the board. This approach minimizes the chances of concentrated hits in one area, making it difficult for the opponent to rapidly locate and sink multiple ships. By evenly dispersing the fleet, this strategy aims to maintain a defensive balance, requiring opponents to explore the entire grid systematically, which can be time-consuming and strategic.
+
 Procedure
+
 The experiment was designed to assess the effectiveness of three different player strategies in the game of Battleship. Three distinct loops were implemented to compare each strategy against the others.
 
 The first loop involved pitting Strategy 1 (Random Placement) against Strategy 2 (Connecting Ships) across 100 trials. Each trial involved running the game with these strategies to evaluate which strategy resulted in more victories. The second loop focused on Strategy 1 versus Strategy 3 (Even Distribution), and similarly, the third loop compared Strategy 2 against Strategy 3. The goal was to observe and analyze the outcomes to determine the relative success rates of the different strategies.
