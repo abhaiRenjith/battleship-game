@@ -20,6 +20,7 @@ For each trial, the chosen strategies were implemented, and the game was allowed
 The primary data collected during the experiment was the number of wins for each strategy in the respective matchups. This data allowed for a quantitative comparison of the success rates of the strategies against each other. The experiment was structured to provide a comprehensive understanding of the relative performance of the three strategies, shedding light on their strengths and weaknesses in different matchups. The use of 100 trials per comparison helped ensure statistical robustness and reliability in drawing conclusions about the strategies' comparative effectiveness.
 
 Results
+
 After conducting a series of simulations to evaluate the performance of three different player strategies in the game of Battleship, we observed intriguing results. The strategies were tested in pairs across 100 trials each, and the data reveals distinctive patterns in their effectiveness.
 
 Strategy 3 emerged as the most effective, showcasing a consistent win rate of nearly 70% against both Strategy 1 and Strategy 2. This suggests that the even distribution of ships across the board provides a strategic advantage, making it challenging for opponents to locate and sink the fleet.
@@ -27,10 +28,6 @@ Strategy 3 emerged as the most effective, showcasing a consistent win rate of ne
 While Strategy 1 had a moderate success rate against Strategy 2, it struggled against the more structured Strategy 3. The randomness introduced in ship placement proved to be effective in some scenarios but lacked the consistency demonstrated by Strategy 3.
 
 Strategy 2 displayed the least effectiveness in the simulations, achieving roughly equal success rates against Strategy 1 and Strategy 3. The attempt to create larger ship structures by connecting them did not consistently outperform the other strategies.
-
-Example Image:
-
-1V2 1V3 2V3
 
 Example Table:
 
